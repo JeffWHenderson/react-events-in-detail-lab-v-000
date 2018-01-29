@@ -2,8 +2,9 @@
 import React from 'react'
 
 class CoordinatesButton extends React.Component {
-  handleClick = (event) => {
-    console.log(event.type)
+  getCoordinates = (event) => {
+    var coordinatesArray = [this.pageX, this.pageY]
+    this.props.onReceiveCoordinates(coordinatesArray)
   }
 
   render() {
