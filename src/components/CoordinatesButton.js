@@ -2,7 +2,10 @@
 import React from 'react'
 
 class CoordinatesButton extends React.Component {
-
+  handleClick = (event) => {
+    console.log(event)
+  }
+  
   render() {
     return (
       <p>Hello World</p>
