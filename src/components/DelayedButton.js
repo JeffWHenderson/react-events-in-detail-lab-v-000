@@ -2,7 +2,7 @@ import React from 'react'
 
 class DelayedButton extends React.Component {
   handleClick = (event) => {
-    console.log(event)
+    console.log(event.type)
   }
 
   render() {
