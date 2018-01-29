@@ -3,7 +3,7 @@ import React from 'react'
 
 class CoordinatesButton extends React.Component
 
-  render() {
+  render {
     return (
       <p>Hello World</p>
     )
